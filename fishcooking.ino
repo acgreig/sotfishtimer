@@ -5,7 +5,7 @@ LiquidCrystal lcd(rs, en, d4, d5, d6, d7); // check https://create.arduino.cc/pr
 
 #include "IRremote.h"
 /*-----( Declare Constants )-----*/
-int receiver = 13; // pin 1 of IR receiver to Arduino digital pin 3
+int receiver = 13; // Data pin of IR receiver to Arduino digital pin 13
 /*-----( Declare objects )-----*/
 IRrecv irrecv(receiver);           // create instance of 'irrecv'
 decode_results results;            // create instance of 'decode_results'
